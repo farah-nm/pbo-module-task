@@ -201,6 +201,12 @@ namespace praktikum_polymorphism
             Console.WriteLine("\nPrint Method Khusus :");
             singa.Mengaum();
             ular.Merayap();
+
+            //no 5
+            Console.WriteLine();
+            Console.WriteLine("Percobaan no 5");
+            Reptil reptil = new Buaya("Croco", 7, 5.0);
+            Console.WriteLine(reptil.Suara());
         }
     }
 }
